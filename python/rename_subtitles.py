@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import os
 init = "Rename Subtitles. Copyright (C) 2017 Aalok S.\nThis program comes with ABSOLUTELY NO WARRANTY; for details see GNU GPLv3.\nThis is free software, and you are welcome to redistribute it under certain conditions."
 print(init)
@@ -17,3 +19,6 @@ cwd=os.getcwd()
 
 for i in range(len(list2)):
 	os.rename(list2[i]+".srt",list1[i]+".srt")
+
+ext=input("Press return to exit")
+exit()
