@@ -1,5 +1,6 @@
 #!/usr/lib/python3
-
+init = "Pick Episode. Copyright (C) 2017 Aalok S.\nThis program comes with ABSOLUTELY NO WARRANTY; for details see GNU GPLv3.\nThis is free software, and you are welcome to redistribute it under certain conditions."
+print(init)
 def getepi():
 	print("This is a trivial script written by Aalok S. in 2017.\nDone watching the entire series and now can't decide which episode you want to watch? Use this script to help you decide!\nPython3.* required\nPlease halt if you are using an older version\nPress return to continue")
 	choice = input()	
