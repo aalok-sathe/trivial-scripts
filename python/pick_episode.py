@@ -25,5 +25,5 @@ def getepi():
 
 		print("\nYou shall watch s%se%s of this show."%(s,e))
 	else: exit()
-	
+
 getepi()
